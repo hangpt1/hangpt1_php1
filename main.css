@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(91, 140, 226);
+  font-family: "Courier New", Courier, monospace;
+}
+body img {
+  width: 10%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+body img :hover {
+  opacity: 0.5;
+}
+body center p {
+  font-weight: 700;
+}
+body button {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 8px #cdcbcb;
+  background-color: black;
+  line-height: 30px;
+}
+body button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+body button :hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=main.css.map */

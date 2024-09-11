@@ -111,6 +111,37 @@ if(filter_var($email, FILTER_VALIDATE_EMAIL)){
 }else{
     echo "20." . "$email không phải là email".'</br>';
 }
+// <!-- ______________________________ -->
+// <!-- Buổi 3 -->
+function canBachai(int $x){
+    return sqrt($x);
+}
+echo "căn bậc 2 của 16 là: ". canBachai(16). "<br>";
+function chuvihcn($a, $b){
+    if ($a > 0 && $b > 0){
+        return ($a+$b)*2;
+    }
+    else{
+        echo "Kích thước hình chữ nhật là 1 số dương";
+    }
+    
+};
+
+echo "Chu vi của hình chữ nhật có chiều dài là 3, chiều rộng là 2 là:". chuvihcn(3, -2). "<br>";
+
+function giaiptbac1($a, $b){
+    if($b ==0){
+        echo "Chương trình vô nghiệm ";
+    }
+    elseif($a==0 && $b == 0){
+        echo "Chương trình vô số nghiệm";
+    }
+    else{
+        return -$b/$a;
+    }
+
+}
+echo "Kết quả giải phương trình bậc 1 6x+2 = 0 là x = ". giaiptbac1(3,2). "<br>";
 
 ?>
 
